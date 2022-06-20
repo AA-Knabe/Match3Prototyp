@@ -8,7 +8,7 @@ public class DragLineHandler : MonoBehaviour, IDragHandler, IEndDragHandler, IPo
     [SerializeField] private Match3 game;
 
     private List<GameObject> connectedObjects;
-    private int[] solveCode = { 2, 3, 4 };
+    private int[] solveCode = { 1, 2, 3 };
     private int chainModulo;
     private int minLength = 3;
 
@@ -57,8 +57,7 @@ public class DragLineHandler : MonoBehaviour, IDragHandler, IEndDragHandler, IPo
     {
         Debug.Log("end onDrag");
 
-        //0 = blank, 1 = cube, 2 = sphere, 3 = cylinder, 4 = pryamid, 5 = diamond, -1 = hole
-        //Kugel: 2, Zylinder: 3, Pyramide: 4
+        //Kugel: 1, Zylinder: 2, Pyramide: 3
 
         if(connectedObjects.Count < minLength)
         {

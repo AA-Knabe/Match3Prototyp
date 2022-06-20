@@ -9,7 +9,7 @@ public class Match3 : MonoBehaviour
     private int selectedStage = 0;
 
     [Header("UI Elements")]
-    public Sprite[] pieces;
+    private Sprite[] pieces;
     public RectTransform gameBoard;
     public RectTransform killedBoard;
 
@@ -113,6 +113,7 @@ public class Match3 : MonoBehaviour
 
     void StartGame()
     {
+        pieces = stages[selectedStage].pieces;
         fills = new int[width];
         string seed = getRandomSeed();
         random = new System.Random(seed.GetHashCode());
@@ -152,7 +153,19 @@ public class Match3 : MonoBehaviour
                 NodePiece piece = p.GetComponent<NodePiece>();
                 RectTransform rect = p.GetComponent<RectTransform>();
                 rect.anchoredPosition = new Vector2(32 + (64 * x), -32 - (64 * y));
-                piece.Initialize(val, new Point(x, y), pieces[val - 1]);
+                try
+                {
+                    piece.Initialize(val, new Point(x, y), pieces[val - 1]);
+                }
+                catch (System.Exception)
+                {
+                    Debug.Log("val ist " + val);
+                    Debug.Log("pieces ist " + pieces.Length);
+                    throw;
+                }
+               
+
+                
                 node.SetPiece(piece);
             }
         }
@@ -229,7 +242,7 @@ public class Match3 : MonoBehaviour
     int fillPiece()
     {
         int val = 1;
-        val = (random.Next(0, 100) / (100 / pieces.Length)) + 1;
+        val = (random.Next(0, 99) / (100 / pieces.Length)) + 1;
         return val;
     }
 
