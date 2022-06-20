@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Match3 : MonoBehaviour
 {
-    public ArrayLayout boardLayout;
+    [SerializeField]
+    private StageSO[] stages;
+    private int selectedStage = 0;
 
     [Header("UI Elements")]
     public Sprite[] pieces;
@@ -131,7 +133,7 @@ public class Match3 : MonoBehaviour
         {
             for(int x = 0; x < width; x++)
             {
-                board[x, y] = new Node((boardLayout.rows[y].row[x]) ? - 1 : fillPiece(), new Point(x, y));
+                board[x, y] = new Node((stages[selectedStage].boardLayout.rows[y].row[x]) ? - 1 : fillPiece(), new Point(x, y));
             }
         }
     }
@@ -259,6 +261,29 @@ public class Match3 : MonoBehaviour
     public Vector2 getPositionFromPoint(Point p)
     {
         return new Vector2(32 + (64 * p.x), -32 - (64 * p.y));
+    }
+
+    public void StartStage(int stage)
+    {
+        if(stage < stages.Length)
+        {
+            selectedStage = stage;
+            score = 0;
+            ClearAll();
+            StartGame();
+        } 
+        else
+        {
+            Debug.Log("Invalid Stage Id");
+        }
+    }
+
+    private void ClearAll()
+    {
+        foreach (Transform child in gameBoard.transform)
+        {
+            GameObject.Destroy(child.gameObject);
+        }
     }
 }
 

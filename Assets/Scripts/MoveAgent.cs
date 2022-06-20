@@ -26,14 +26,13 @@ public class MoveAgent : MonoBehaviour
     void Update()
     {
         int scoreDiff = game.score - lastScoreUpdate;
-        if (scoreDiff > 2)
+        if (Mathf.Abs(scoreDiff) > 2)
         {
             if(scoreDiff > 0.01f * maxScore)
             {
                 //animator.SetTrigger("roll");
             }
             lastScoreUpdate = game.score;
-            int moduloScore = lastScoreUpdate % 20;
             animator.SetBool("run", true);
         }
         float progress = lastScoreUpdate * 1.0f / maxScore;
