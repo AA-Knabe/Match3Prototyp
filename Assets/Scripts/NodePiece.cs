@@ -17,7 +17,6 @@ public class NodePiece : MonoBehaviour
     [HideInInspector]
     public RectTransform rect;
 
-    bool updating;
     Image img;
 
     public void Initialize(int v, Point p, Sprite piece)
@@ -57,13 +56,11 @@ public class NodePiece : MonoBehaviour
         if(Vector3.Distance(rect.anchoredPosition, pos) > 1)
         {
             MovePositionTo(pos);
-            updating = true;
             return true;
         }
         else
         {
             rect.anchoredPosition = pos;
-            updating = false;
             return false;
         }
     }

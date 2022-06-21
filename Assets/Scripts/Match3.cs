@@ -123,7 +123,6 @@ public class Match3 : MonoBehaviour
         killed = new List<KilledPiece>();
 
         InitializeBoard();
-        //VerifyBoard();
         InstantiateBoard();
     }
 
