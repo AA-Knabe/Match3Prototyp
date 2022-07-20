@@ -1,4 +1,4 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -40,9 +40,9 @@ public class Match3 : MonoBehaviour
 
     void Update()
     {
-        
+
         List<NodePiece> finishedUpdating = new List<NodePiece>();
-        for(int i = 0; i < update.Count; i++)
+        for (int i = 0; i < update.Count; i++)
         {
             NodePiece piece = update[i];
             if (!piece.UpdatePiece()) finishedUpdating.Add(piece);
@@ -82,7 +82,7 @@ public class Match3 : MonoBehaviour
                         int newVal = fillPiece();
                         NodePiece piece;
                         Point fallPnt = new Point(x, (-1 - fills[x]));
-                        if(dead.Count > 0)
+                        if (dead.Count > 0)
                         {
                             NodePiece revived = dead[0];
                             revived.gameObject.SetActive(true);
@@ -129,11 +129,11 @@ public class Match3 : MonoBehaviour
     void InitializeBoard()
     {
         board = new Node[width, height];
-        for(int y = 0; y < height; y++)
+        for (int y = 0; y < height; y++)
         {
-            for(int x = 0; x < width; x++)
+            for (int x = 0; x < width; x++)
             {
-                board[x, y] = new Node((stages[selectedStage].boardLayout.rows[y].row[x]) ? - 1 : fillPiece(), new Point(x, y));
+                board[x, y] = new Node((stages[selectedStage].boardLayout.rows[y].row[x]) ? -1 : fillPiece(), new Point(x, y));
             }
         }
     }
@@ -162,14 +162,14 @@ public class Match3 : MonoBehaviour
                     Debug.Log("pieces ist " + pieces.Length);
                     throw;
                 }
-               
 
-                
+
+
                 node.SetPiece(piece);
             }
         }
     }
-     
+
     public void ResetPiece(NodePiece piece)
     {
         piece.ResetPosition();
@@ -189,7 +189,7 @@ public class Match3 : MonoBehaviour
             nodeOne.SetPiece(pieceTwo);
             nodeTwo.SetPiece(pieceOne);
 
-            if(main)
+            if (main)
                 flipped.Add(new FlippedPieces(pieceOne, pieceTwo));
 
             update.Add(pieceOne);
@@ -210,7 +210,7 @@ public class Match3 : MonoBehaviour
         {
             set = available[0];
         }
-        
+
         else
         {
             GameObject kill = GameObject.Instantiate(killedPiece, killedBoard);
@@ -234,7 +234,7 @@ public class Match3 : MonoBehaviour
 
         ApplyGravityToBoard();
 
-        if(getPoints)
+        if (getPoints)
             score++;
     }
 
@@ -277,13 +277,13 @@ public class Match3 : MonoBehaviour
 
     public void StartStage(int stage)
     {
-        if(stage < stages.Length)
+        if (stage < stages.Length)
         {
             selectedStage = stage;
             score = 0;
             ClearAll();
             StartGame();
-        } 
+        }
         else
         {
             Debug.Log("Invalid Stage Id");

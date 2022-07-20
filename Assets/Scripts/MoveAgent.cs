@@ -35,7 +35,7 @@ public class MoveAgent : MonoBehaviour
             lastScoreUpdate = game.score;
             animator.SetBool("run", true);
         }
-        float progress = lastScoreUpdate * 1.0f / maxScore;
+        float progress = Mathf.Min(1.0f, lastScoreUpdate * 1.0f / maxScore);
         
         transform.position = Vector3.Lerp(currentPosition, startPosition + progress * targetPosition, Time.deltaTime);
         if(Mathf.Abs((currentPosition - transform.position).magnitude) < 0.0001f)

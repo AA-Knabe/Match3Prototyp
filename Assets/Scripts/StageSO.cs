@@ -8,4 +8,16 @@ public class StageSO : ScriptableObject
     public ArrayLayout boardLayout;
 
     public Sprite[] pieces;
+
+    public BlockTypes[] templateBlockValue;
+}
+
+[System.Serializable]
+public enum BlockTypes
+{
+    Blau,
+    Rot,
+    Gruen,
+    Orange,
+    Lila
 }

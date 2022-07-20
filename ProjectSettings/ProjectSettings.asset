@@ -748,11 +748,11 @@ PlayerSettings:
     m_VersionName: 
   apiCompatibilityLevel: 6
   activeInputHandler: 0
-  cloudProjectId: 
+  cloudProjectId: 367555bd-ab9a-4f05-8ba3-4711be85bd44
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
-  organizationId: 
+  projectName: TestPrototyp
+  organizationId: aa_knabe
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   playerDataPath: 

@@ -915,11 +915,6 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 5df55b544939900439217765f15a1a6d, type: 2}
   - {fileID: 11400000, guid: ac41ee81aab15f943b68e1ea631076e4, type: 2}
   - {fileID: 11400000, guid: 2599ee8ba7ae59144b83292f1de39cf9, type: 2}
-  pieces:
-  - {fileID: 7086606104257924489, guid: 34f6321b206afab459fb7c8d37989456, type: 3}
-  - {fileID: -7105913188517789750, guid: 34f6321b206afab459fb7c8d37989456, type: 3}
-  - {fileID: -8166966530815011495, guid: 34f6321b206afab459fb7c8d37989456, type: 3}
-  - {fileID: -488248382649040768, guid: 34f6321b206afab459fb7c8d37989456, type: 3}
   gameBoard: {fileID: 1257328357}
   killedBoard: {fileID: 1519449957}
   nodePiece: {fileID: 9128246731919072194, guid: 008eef431d6219848a9a3bbf83c16107, type: 3}
@@ -2101,7 +2096,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -90.9}
+  m_AnchoredPosition: {x: 10, y: -90.9}
   m_SizeDelta: {x: 623.4, y: 150}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2012841177
