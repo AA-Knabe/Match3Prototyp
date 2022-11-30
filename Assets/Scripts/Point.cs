@@ -80,7 +80,9 @@ public class Point
         return new Point(p.x, p.y);
     }
 
-
+    /// <summary>
+    /// Punkt mit den Koordinaten(0,0).
+    /// </summary>
     public static Point zero
     {
         get { return new Point(0, 0); }
