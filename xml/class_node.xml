@@ -1,0 +1,134 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_node" kind="class" language="C#" prot="public">
+    <compoundname>Node</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_node_1a0b22c8df851d4e10895968333e7f48a6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Node.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>Node.value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Match3.cs" line="304" column="16" bodyfile="Assets/Scripts/Match3.cs" bodystart="304" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_1a6fe3a370e5e5211ee30b66a4216d9a61" prot="public" static="no" mutable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref></type>
+        <definition>Point Node.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <qualifiedname>Node.index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Match3.cs" line="305" column="18" bodyfile="Assets/Scripts/Match3.cs" bodystart="305" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_node_1ae15a041dbb5ccb3aec7e0d52b5ee7a8b" prot="private" static="no" mutable="no">
+        <type><ref refid="class_node_piece" kindref="compound">NodePiece</ref></type>
+        <definition>NodePiece Node.piece</definition>
+        <argsstring></argsstring>
+        <name>piece</name>
+        <qualifiedname>Node.piece</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Match3.cs" line="306" column="15" bodyfile="Assets/Scripts/Match3.cs" bodystart="306" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_node_1a954358ff4e04e98a915b95a4fa2b8d01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Node.Node</definition>
+        <argsstring>(int v, Point i)</argsstring>
+        <name>Node</name>
+        <qualifiedname>Node.Node</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="class_point" kindref="compound">Point</ref></type>
+          <declname>i</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Match3.cs" line="308" column="12" bodyfile="Assets/Scripts/Match3.cs" bodystart="308" bodyend="312"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_1a71b485395ca654107cb027fad53b94fc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Node.SetPiece</definition>
+        <argsstring>(NodePiece p)</argsstring>
+        <name>SetPiece</name>
+        <qualifiedname>Node.SetPiece</qualifiedname>
+        <param>
+          <type><ref refid="class_node_piece" kindref="compound">NodePiece</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Match3.cs" line="314" column="17" bodyfile="Assets/Scripts/Match3.cs" bodystart="314" bodyend="320"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_1a19b6eb56d23dfe8028912dbe53df7c12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_node_piece" kindref="compound">NodePiece</ref></type>
+        <definition>NodePiece Node.getPiece</definition>
+        <argsstring>()</argsstring>
+        <name>getPiece</name>
+        <qualifiedname>Node.getPiece</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/Match3.cs" line="322" column="22" bodyfile="Assets/Scripts/Match3.cs" bodystart="322" bodyend="329"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>Node</label>
+        <link refid="class_node"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>index</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>Point</label>
+        <link refid="class_point"/>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/Match3.cs" line="302" column="7" bodyfile="Assets/Scripts/Match3.cs" bodystart="303" bodyend="330"/>
+    <listofallmembers>
+      <member refid="class_node_1a19b6eb56d23dfe8028912dbe53df7c12" prot="public" virt="non-virtual"><scope>Node</scope><name>getPiece</name></member>
+      <member refid="class_node_1a6fe3a370e5e5211ee30b66a4216d9a61" prot="public" virt="non-virtual"><scope>Node</scope><name>index</name></member>
+      <member refid="class_node_1a954358ff4e04e98a915b95a4fa2b8d01" prot="public" virt="non-virtual"><scope>Node</scope><name>Node</name></member>
+      <member refid="class_node_1ae15a041dbb5ccb3aec7e0d52b5ee7a8b" prot="private" virt="non-virtual"><scope>Node</scope><name>piece</name></member>
+      <member refid="class_node_1a71b485395ca654107cb027fad53b94fc" prot="public" virt="non-virtual"><scope>Node</scope><name>SetPiece</name></member>
+      <member refid="class_node_1a0b22c8df851d4e10895968333e7f48a6" prot="public" virt="non-virtual"><scope>Node</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

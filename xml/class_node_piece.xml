@@ -1,0 +1,300 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_node_piece" kind="class" language="C#" prot="public">
+    <compoundname>NodePiece</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">MonoBehaviour</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_node_piece_1a7c8233e74e2f6dc1b5e96af11878a31d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int NodePiece.value</definition>
+        <argsstring></argsstring>
+        <name>value</name>
+        <qualifiedname>NodePiece.value</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="9" column="16" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_piece_1a92e614f376e7b1fa5fe975fc33ba66ea" prot="public" static="no" mutable="no">
+        <type><ref refid="class_point" kindref="compound">Point</ref></type>
+        <definition>Point NodePiece.index</definition>
+        <argsstring></argsstring>
+        <name>index</name>
+        <qualifiedname>NodePiece.index</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="10" column="18" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_piece_1ab652c4645a8c35d6569b5f3a9efc6ee7" prot="public" static="no" mutable="no">
+        <type>Vector2</type>
+        <definition>Vector2 NodePiece.pos</definition>
+        <argsstring></argsstring>
+        <name>pos</name>
+        <qualifiedname>NodePiece.pos</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="16" column="20" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_piece_1ac4c4d26682c22fb44f418d8045e57686" prot="public" static="no" mutable="no">
+        <type>RectTransform</type>
+        <definition>RectTransform NodePiece.rect</definition>
+        <argsstring></argsstring>
+        <name>rect</name>
+        <qualifiedname>NodePiece.rect</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="18" column="26" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_node_piece_1ab89f16816eb5ae4fdf32a2caab1d4c54" prot="private" static="no" mutable="no">
+        <type>Color</type>
+        <definition>Color NodePiece.highlightColor</definition>
+        <argsstring></argsstring>
+        <name>highlightColor</name>
+        <qualifiedname>NodePiece.highlightColor</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="13" column="19" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_node_piece_1a34e3933c286c5a2073df68c6c45c78e6" prot="private" static="no" mutable="no">
+        <type>Image</type>
+        <definition>Image NodePiece.img</definition>
+        <argsstring></argsstring>
+        <name>img</name>
+        <qualifiedname>NodePiece.img</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="20" column="11" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_node_piece_1aec9e5133244dad7e53ef0951bda82806" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NodePiece.Initialize</definition>
+        <argsstring>(int v, Point p, Sprite piece)</argsstring>
+        <name>Initialize</name>
+        <qualifiedname>NodePiece.Initialize</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>v</declname>
+        </param>
+        <param>
+          <type><ref refid="class_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>Sprite</type>
+          <declname>piece</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="22" column="17" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="22" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_piece_1a7f898844055573faf4deae2de151ea5a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NodePiece.SetIndex</definition>
+        <argsstring>(Point p)</argsstring>
+        <name>SetIndex</name>
+        <qualifiedname>NodePiece.SetIndex</qualifiedname>
+        <param>
+          <type><ref refid="class_point" kindref="compound">Point</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="32" column="17" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="32" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_piece_1a1ffce98ba761b19a5a3781a4263ff405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NodePiece.ResetPosition</definition>
+        <argsstring>()</argsstring>
+        <name>ResetPosition</name>
+        <qualifiedname>NodePiece.ResetPosition</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="39" column="17" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_piece_1a71ab5610ff9b30101770fafafb275ccd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NodePiece.MovePosition</definition>
+        <argsstring>(Vector2 move)</argsstring>
+        <name>MovePosition</name>
+        <qualifiedname>NodePiece.MovePosition</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>move</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="44" column="17" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_piece_1a6c252c19c7aa827f85d93545c138f070" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NodePiece.MovePositionTo</definition>
+        <argsstring>(Vector2 move)</argsstring>
+        <name>MovePositionTo</name>
+        <qualifiedname>NodePiece.MovePositionTo</qualifiedname>
+        <param>
+          <type>Vector2</type>
+          <declname>move</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="49" column="17" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_piece_1a63a41e8700095e956d1f3a2a04ce6896" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool NodePiece.UpdatePiece</definition>
+        <argsstring>()</argsstring>
+        <name>UpdatePiece</name>
+        <qualifiedname>NodePiece.UpdatePiece</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="54" column="17" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="54" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_piece_1aa5fc77b6c0eeb1c46eea1abe8cec9f57" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NodePiece.HighlightPiece</definition>
+        <argsstring>()</argsstring>
+        <name>HighlightPiece</name>
+        <qualifiedname>NodePiece.HighlightPiece</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="73" column="17" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="73" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_node_piece_1ae4bd4c75eeb72ec288dc467308fbe0ce" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NodePiece.UnhighlightPiece</definition>
+        <argsstring>()</argsstring>
+        <name>UnhighlightPiece</name>
+        <qualifiedname>NodePiece.UnhighlightPiece</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="79" column="17" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="79" bodyend="82"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_node_piece_1a7f436dae5b9f0bbe838d347af544863f" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void NodePiece.UpdateName</definition>
+        <argsstring>()</argsstring>
+        <name>UpdateName</name>
+        <qualifiedname>NodePiece.UpdateName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/NodePiece.cs" line="68" column="10" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>NodePiece</label>
+        <link refid="class_node_piece"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>MonoBehaviour</label>
+      </node>
+      <node id="1">
+        <label>NodePiece</label>
+        <link refid="class_node_piece"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>index</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Point</label>
+        <link refid="class_point"/>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/NodePiece.cs" line="7" column="7" bodyfile="Assets/Scripts/NodePiece.cs" bodystart="8" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_node_piece_1ab89f16816eb5ae4fdf32a2caab1d4c54" prot="private" virt="non-virtual"><scope>NodePiece</scope><name>highlightColor</name></member>
+      <member refid="class_node_piece_1aa5fc77b6c0eeb1c46eea1abe8cec9f57" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>HighlightPiece</name></member>
+      <member refid="class_node_piece_1a34e3933c286c5a2073df68c6c45c78e6" prot="private" virt="non-virtual"><scope>NodePiece</scope><name>img</name></member>
+      <member refid="class_node_piece_1a92e614f376e7b1fa5fe975fc33ba66ea" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>index</name></member>
+      <member refid="class_node_piece_1aec9e5133244dad7e53ef0951bda82806" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>Initialize</name></member>
+      <member refid="class_node_piece_1a71ab5610ff9b30101770fafafb275ccd" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>MovePosition</name></member>
+      <member refid="class_node_piece_1a6c252c19c7aa827f85d93545c138f070" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>MovePositionTo</name></member>
+      <member refid="class_node_piece_1ab652c4645a8c35d6569b5f3a9efc6ee7" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>pos</name></member>
+      <member refid="class_node_piece_1ac4c4d26682c22fb44f418d8045e57686" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>rect</name></member>
+      <member refid="class_node_piece_1a1ffce98ba761b19a5a3781a4263ff405" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>ResetPosition</name></member>
+      <member refid="class_node_piece_1a7f898844055573faf4deae2de151ea5a" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>SetIndex</name></member>
+      <member refid="class_node_piece_1ae4bd4c75eeb72ec288dc467308fbe0ce" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>UnhighlightPiece</name></member>
+      <member refid="class_node_piece_1a7f436dae5b9f0bbe838d347af544863f" prot="private" virt="non-virtual"><scope>NodePiece</scope><name>UpdateName</name></member>
+      <member refid="class_node_piece_1a63a41e8700095e956d1f3a2a04ce6896" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>UpdatePiece</name></member>
+      <member refid="class_node_piece_1a7c8233e74e2f6dc1b5e96af11878a31d" prot="public" virt="non-virtual"><scope>NodePiece</scope><name>value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

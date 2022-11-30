@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="dir_f13b41af88cf68434578284aaf699e39" kind="dir">
+    <compoundname>Assets/Scripts</compoundname>
+    <innerfile refid="_array_layout_8cs">ArrayLayout.cs</innerfile>
+    <innerfile refid="_drag_line_handler_8cs">DragLineHandler.cs</innerfile>
+    <innerfile refid="_killed_piece_8cs">KilledPiece.cs</innerfile>
+    <innerfile refid="_match3_8cs">Match3.cs</innerfile>
+    <innerfile refid="_move_agent_8cs">MoveAgent.cs</innerfile>
+    <innerfile refid="_move_pieces_8cs">MovePieces.cs</innerfile>
+    <innerfile refid="_node_piece_8cs">NodePiece.cs</innerfile>
+    <innerfile refid="_point_8cs">Point.cs</innerfile>
+    <innerfile refid="_stage_s_o_8cs">StageSO.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="Assets/Scripts/"/>
+  </compounddef>
+</doxygen>
