@@ -17,6 +17,10 @@ jobs:
       run: sudo apt-get install doxygen graphviz -y
       shell: bash
 
+    - name: Check dir
+      run: dir
+      shell: bash
+
     - name: Generate Doxygen Documentation
       run: doxygen Doxyfile
       shell: bash
