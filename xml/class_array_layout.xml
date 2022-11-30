@@ -1,0 +1,93 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.5" xml:lang="en-US">
+  <compounddef id="class_array_layout" kind="class" language="C#" prot="public">
+    <compoundname>ArrayLayout</compoundname>
+    <innerclass refid="struct_array_layout_1_1row_data" prot="public">ArrayLayout::rowData</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_array_layout_1a25bdf48292cb6729f030790e6eeb970c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ArrayLayout.width</definition>
+        <argsstring></argsstring>
+        <name>width</name>
+        <qualifiedname>ArrayLayout.width</qualifiedname>
+        <briefdescription>
+<para>Versuch die Breite zu definieren  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ArrayLayout.cs" line="12" column="16" bodyfile="Assets/Scripts/ArrayLayout.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_array_layout_1a4f694c6eec063695091463b8c39c0399" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int ArrayLayout.height</definition>
+        <argsstring></argsstring>
+        <name>height</name>
+        <qualifiedname>ArrayLayout.height</qualifiedname>
+        <briefdescription>
+<para>Versuch die Hoehe zu definieren  </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ArrayLayout.cs" line="17" column="16" bodyfile="Assets/Scripts/ArrayLayout.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_array_layout_1a14d2f2c61a604046d6d226ddabff9335" prot="public" static="no" mutable="no">
+        <type>Grid</type>
+        <definition>Grid ArrayLayout.grid</definition>
+        <argsstring></argsstring>
+        <name>grid</name>
+        <qualifiedname>ArrayLayout.grid</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ArrayLayout.cs" line="25" column="17" bodyfile="Assets/Scripts/ArrayLayout.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_array_layout_1aaac25f2e2ffa120af189d17574da08a8" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_array_layout_1_1row_data" kindref="compound">rowData</ref>[]</type>
+        <definition>rowData [] ArrayLayout.rows</definition>
+        <argsstring></argsstring>
+        <name>rows</name>
+        <qualifiedname>ArrayLayout.rows</qualifiedname>
+        <initializer>= new <ref refid="struct_array_layout_1_1row_data" kindref="compound">rowData</ref>[14]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="Assets/Scripts/ArrayLayout.cs" line="26" column="20" bodyfile="Assets/Scripts/ArrayLayout.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Moeglichkeit ein Level als 2-dim bool Array zu erstellen.  </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>ArrayLayout</label>
+        <link refid="class_array_layout"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>rows</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>ArrayLayout.rowData</label>
+        <link refid="struct_array_layout_1_1row_data"/>
+      </node>
+    </collaborationgraph>
+    <location file="Assets/Scripts/ArrayLayout.cs" line="7" column="7" bodyfile="Assets/Scripts/ArrayLayout.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_array_layout_1a14d2f2c61a604046d6d226ddabff9335" prot="public" virt="non-virtual"><scope>ArrayLayout</scope><name>grid</name></member>
+      <member refid="class_array_layout_1a4f694c6eec063695091463b8c39c0399" prot="public" virt="non-virtual"><scope>ArrayLayout</scope><name>height</name></member>
+      <member refid="class_array_layout_1aaac25f2e2ffa120af189d17574da08a8" prot="public" virt="non-virtual"><scope>ArrayLayout</scope><name>rows</name></member>
+      <member refid="class_array_layout_1a25bdf48292cb6729f030790e6eeb970c" prot="public" virt="non-virtual"><scope>ArrayLayout</scope><name>width</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

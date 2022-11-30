@@ -1,0 +1,205 @@
+\hypertarget{class_point}{}\doxysection{Point Class Reference}
+\label{class_point}\index{Point@{Point}}
+
+
+Hilfsklasse um Objekte in einzele Punkte zu packen   
+
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_point_aedacf4a6796c933d89d48b44c890bb55}{Point}} (int nx, int ny)
+\item 
+void \mbox{\hyperlink{class_point_a831fbc4c0ef320e073f6b5f0b0881ea9}{mult}} (int m)
+\item 
+void \mbox{\hyperlink{class_point_a9e5f3ec19b91970d3927394c5ce17d8b}{add}} (\mbox{\hyperlink{class_point}{Point}} p)
+\item 
+Vector2 \mbox{\hyperlink{class_point_ad18ce39df71caefbccd65cde6ccccac3}{To\+Vector}} ()
+\item 
+bool \mbox{\hyperlink{class_point_accc21b3d3d8edb144c58df3c0b665372}{Equals}} (\mbox{\hyperlink{class_point}{Point}} p)
+\end{DoxyCompactItemize}
+\doxysubsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_a1ad7a5a370a7fa43a176cce05faab6bb}{from\+Vector}} (Vector2 v)
+\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_a61ffddfdb591d4165150ca354a4a9646}{from\+Vector}} (Vector3 v)
+\item 
+static int \mbox{\hyperlink{class_point_a7638ec2142910c7b7e805d77dedb4e77}{Distance\+Between}} (\mbox{\hyperlink{class_point}{Point}} p, \mbox{\hyperlink{class_point}{Point}} o)
+\begin{DoxyCompactList}\small\item\em Static Methode, um die Chebyshev Distanz zwischen zwei Punkten zu ermitteln.  \end{DoxyCompactList}\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_a47eaf483fee27954dfc876a4f22d804a}{mult}} (\mbox{\hyperlink{class_point}{Point}} p, int m)
+\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_a3bed9a79ce276cff30adbe47a9fc6a62}{add}} (\mbox{\hyperlink{class_point}{Point}} p, \mbox{\hyperlink{class_point}{Point}} o)
+\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_aee78dd03e79fca13a4b79b5d12f37363}{clone}} (\mbox{\hyperlink{class_point}{Point}} p)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_point_a697e31738608d7bd7ca19e615a8d38e3}{x}}
+\item 
+int \mbox{\hyperlink{class_point_aeccc65fcaf78882d5ca06b0282fa20ae}{y}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_af3ebd0b4325b61b2834831aae65e1337}{zero}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_a6743ec5172f7506e937087c69fb6fb75}{one}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_abf391c430c2598ec4506b9a87a580be4}{up}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_a901145a3ba6d85173a7b4909e7816459}{down}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_a9ee929ee24fb8288f63465dad33f01a0}{right}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\item 
+static \mbox{\hyperlink{class_point}{Point}} \mbox{\hyperlink{class_point_a7f3e1a9838f53ff12fdbba01c11731d3}{left}}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Hilfsklasse um Objekte in einzele Punkte zu packen  
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_point_aedacf4a6796c933d89d48b44c890bb55}\label{class_point_aedacf4a6796c933d89d48b44c890bb55}} 
+\index{Point@{Point}!Point@{Point}}
+\index{Point@{Point}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{Point()}{Point()}}
+{\footnotesize\ttfamily Point.\+Point (\begin{DoxyParamCaption}\item[{int}]{nx,  }\item[{int}]{ny }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_point_a9e5f3ec19b91970d3927394c5ce17d8b}\label{class_point_a9e5f3ec19b91970d3927394c5ce17d8b}} 
+\index{Point@{Point}!add@{add}}
+\index{add@{add}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Point.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point}{Point}}}]{p }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_a3bed9a79ce276cff30adbe47a9fc6a62}\label{class_point_a3bed9a79ce276cff30adbe47a9fc6a62}} 
+\index{Point@{Point}!add@{add}}
+\index{add@{add}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{add()}{add()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_point}{Point}} Point.\+add (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point}{Point}}}]{p,  }\item[{\mbox{\hyperlink{class_point}{Point}}}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_point_aee78dd03e79fca13a4b79b5d12f37363}\label{class_point_aee78dd03e79fca13a4b79b5d12f37363}} 
+\index{Point@{Point}!clone@{clone}}
+\index{clone@{clone}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{clone()}{clone()}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_point}{Point}} Point.\+clone (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point}{Point}}}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_point_a7638ec2142910c7b7e805d77dedb4e77}\label{class_point_a7638ec2142910c7b7e805d77dedb4e77}} 
+\index{Point@{Point}!DistanceBetween@{DistanceBetween}}
+\index{DistanceBetween@{DistanceBetween}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{DistanceBetween()}{DistanceBetween()}}
+{\footnotesize\ttfamily static int Point.\+Distance\+Between (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point}{Point}}}]{p,  }\item[{\mbox{\hyperlink{class_point}{Point}}}]{o }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Static Methode, um die Chebyshev Distanz zwischen zwei Punkten zu ermitteln.  
+
+
+\begin{DoxyParams}{Parameters}
+{\em p} & Erster \mbox{\hyperlink{class_point}{Point}}\\
+\hline
+{\em o} & Zweiter \mbox{\hyperlink{class_point}{Point}}\\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Distanz als Int
+\end{DoxyReturn}
+\mbox{\Hypertarget{class_point_accc21b3d3d8edb144c58df3c0b665372}\label{class_point_accc21b3d3d8edb144c58df3c0b665372}} 
+\index{Point@{Point}!Equals@{Equals}}
+\index{Equals@{Equals}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{Equals()}{Equals()}}
+{\footnotesize\ttfamily bool Point.\+Equals (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point}{Point}}}]{p }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_a1ad7a5a370a7fa43a176cce05faab6bb}\label{class_point_a1ad7a5a370a7fa43a176cce05faab6bb}} 
+\index{Point@{Point}!fromVector@{fromVector}}
+\index{fromVector@{fromVector}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{fromVector()}{fromVector()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_point}{Point}} Point.\+from\+Vector (\begin{DoxyParamCaption}\item[{Vector2}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_point_a61ffddfdb591d4165150ca354a4a9646}\label{class_point_a61ffddfdb591d4165150ca354a4a9646}} 
+\index{Point@{Point}!fromVector@{fromVector}}
+\index{fromVector@{fromVector}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{fromVector()}{fromVector()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_point}{Point}} Point.\+from\+Vector (\begin{DoxyParamCaption}\item[{Vector3}]{v }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_point_a831fbc4c0ef320e073f6b5f0b0881ea9}\label{class_point_a831fbc4c0ef320e073f6b5f0b0881ea9}} 
+\index{Point@{Point}!mult@{mult}}
+\index{mult@{mult}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{mult()}{mult()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily void Point.\+mult (\begin{DoxyParamCaption}\item[{int}]{m }\end{DoxyParamCaption})}
+
+\mbox{\Hypertarget{class_point_a47eaf483fee27954dfc876a4f22d804a}\label{class_point_a47eaf483fee27954dfc876a4f22d804a}} 
+\index{Point@{Point}!mult@{mult}}
+\index{mult@{mult}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{mult()}{mult()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily static \mbox{\hyperlink{class_point}{Point}} Point.\+mult (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_point}{Point}}}]{p,  }\item[{int}]{m }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [static]}}
+
+\mbox{\Hypertarget{class_point_ad18ce39df71caefbccd65cde6ccccac3}\label{class_point_ad18ce39df71caefbccd65cde6ccccac3}} 
+\index{Point@{Point}!ToVector@{ToVector}}
+\index{ToVector@{ToVector}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{ToVector()}{ToVector()}}
+{\footnotesize\ttfamily Vector2 Point.\+To\+Vector (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_point_a697e31738608d7bd7ca19e615a8d38e3}\label{class_point_a697e31738608d7bd7ca19e615a8d38e3}} 
+\index{Point@{Point}!x@{x}}
+\index{x@{x}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{x}{x}}
+{\footnotesize\ttfamily int Point.\+x}
+
+\mbox{\Hypertarget{class_point_aeccc65fcaf78882d5ca06b0282fa20ae}\label{class_point_aeccc65fcaf78882d5ca06b0282fa20ae}} 
+\index{Point@{Point}!y@{y}}
+\index{y@{y}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{y}{y}}
+{\footnotesize\ttfamily int Point.\+y}
+
+
+
+\doxysubsection{Property Documentation}
+\mbox{\Hypertarget{class_point_a901145a3ba6d85173a7b4909e7816459}\label{class_point_a901145a3ba6d85173a7b4909e7816459}} 
+\index{Point@{Point}!down@{down}}
+\index{down@{down}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{down}{down}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Point.\+down\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_point_a7f3e1a9838f53ff12fdbba01c11731d3}\label{class_point_a7f3e1a9838f53ff12fdbba01c11731d3}} 
+\index{Point@{Point}!left@{left}}
+\index{left@{left}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{left}{left}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Point.\+left\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_point_a6743ec5172f7506e937087c69fb6fb75}\label{class_point_a6743ec5172f7506e937087c69fb6fb75}} 
+\index{Point@{Point}!one@{one}}
+\index{one@{one}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{one}{one}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Point.\+one\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_point_a9ee929ee24fb8288f63465dad33f01a0}\label{class_point_a9ee929ee24fb8288f63465dad33f01a0}} 
+\index{Point@{Point}!right@{right}}
+\index{right@{right}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{right}{right}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Point.\+right\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_point_abf391c430c2598ec4506b9a87a580be4}\label{class_point_abf391c430c2598ec4506b9a87a580be4}} 
+\index{Point@{Point}!up@{up}}
+\index{up@{up}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{up}{up}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Point.\+up\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+\mbox{\Hypertarget{class_point_af3ebd0b4325b61b2834831aae65e1337}\label{class_point_af3ebd0b4325b61b2834831aae65e1337}} 
+\index{Point@{Point}!zero@{zero}}
+\index{zero@{zero}!Point@{Point}}
+\doxysubsubsection{\texorpdfstring{zero}{zero}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_point}{Point}} Point.\+zero\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Assets/\+Scripts/\mbox{\hyperlink{_point_8cs}{Point.\+cs}}\end{DoxyCompactItemize}

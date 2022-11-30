@@ -1,7 +1,8 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
+/// <summary>
+/// Hilfsklasse um Objekte in einzele Punkte zu packen
+/// </summary>
 [System.Serializable]
 public class Point
 {
@@ -46,6 +47,12 @@ public class Point
         return new Point((int)v.x, (int)v.y);
     }
 
+    /// <summary>
+    /// Static Methode, um die Chebyshev Distanz zwischen zwei Punkten zu ermitteln.
+    /// </summary>
+    /// <param name="p">Erster Point</param>
+    /// <param name="o">Zweiter Point</param>
+    /// <returns>Distanz als Int</returns>
     public static int DistanceBetween(Point p, Point o)
     {
         //Chebyshev Distance
