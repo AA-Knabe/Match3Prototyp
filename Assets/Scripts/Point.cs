@@ -87,6 +87,9 @@ public class Point
     {
         get { return new Point(0, 0); }
     }
+    /// <summary>
+    /// Punkt mit den Koordinaten(1,1).
+    /// </summary>
     public static Point one
     {
         get { return new Point(1, 1); }
