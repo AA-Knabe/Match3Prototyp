@@ -20,7 +20,11 @@ jobs:
     - name: Generate Doxygen Documentation
       run: doxygen Doxyfile
       shell: bash
-      
+
+    - name: Check dir
+      run: dir
+      shell: bash
+    
     - name: Create .nojekyll (ensures pages with underscores work on gh pages)
       run: touch docs/html/.nojekyll
       shell: bash
