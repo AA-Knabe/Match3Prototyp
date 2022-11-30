@@ -1,4 +1,4 @@
-name: Doxygen GitHub Pages Deploy Action
+name: Custom Doxygen GitHub Pages Deploy Action
 
 on:
   push:
