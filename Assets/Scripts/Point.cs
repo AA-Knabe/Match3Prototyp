@@ -70,6 +70,11 @@ public class Point
         return new Point(p.x + o.x, p.y + o.y);
     }
 
+    /// <summary>
+    /// Methode, um einen Punkt zu klonen.
+    /// </summary>
+    /// <param name="p">Zuklonender Punkt</param>
+    /// <returns>Geklonter Punkt</returns>
     public static Point clone(Point p)
     {
         return new Point(p.x, p.y);
