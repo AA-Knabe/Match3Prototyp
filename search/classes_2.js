@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['flippedpieces_85',['FlippedPieces',['../classFlippedPieces.html',1,'']]]
+  ['flippedpieces_88',['FlippedPieces',['../classFlippedPieces.html',1,'']]]
 ];

@@ -10,5 +10,6 @@ var annotated_dup =
     [ "Node", "classNode.html", "classNode" ],
     [ "NodePiece", "classNodePiece.html", "classNodePiece" ],
     [ "Point", "classPoint.html", "classPoint" ],
-    [ "StageSO", "classStageSO.html", "classStageSO" ]
+    [ "StageSO", "classStageSO.html", "classStageSO" ],
+    [ "TestScript", "classTestScript.html", "classTestScript" ]
 ];

@@ -17,7 +17,8 @@ var hierarchy =
       [ "Match3", "classMatch3.html", null ],
       [ "MoveAgent", "classMoveAgent.html", null ],
       [ "MovePieces", "classMovePieces.html", null ],
-      [ "NodePiece", "classNodePiece.html", null ]
+      [ "NodePiece", "classNodePiece.html", null ],
+      [ "TestScript", "classTestScript.html", null ]
     ] ],
     [ "Node", "classNode.html", null ],
     [ "Point", "classPoint.html", null ],
