@@ -1,6 +1,8 @@
 var hierarchy =
 [
-    [ "ArrayLayout", "classArrayLayout.html", null ],
+    [ "ArrayLayout", "classArrayLayout.html", [
+      [ "TestScript", "classTestScript.html", null ]
+    ] ],
     [ "FlippedPieces", "classFlippedPieces.html", null ],
     [ "IDragHandler", null, [
       [ "DragLineHandler", "classDragLineHandler.html", null ]
@@ -17,8 +19,7 @@ var hierarchy =
       [ "Match3", "classMatch3.html", null ],
       [ "MoveAgent", "classMoveAgent.html", null ],
       [ "MovePieces", "classMovePieces.html", null ],
-      [ "NodePiece", "classNodePiece.html", null ],
-      [ "TestScript", "classTestScript.html", null ]
+      [ "NodePiece", "classNodePiece.html", null ]
     ] ],
     [ "Node", "classNode.html", null ],
     [ "Point", "classPoint.html", null ],
