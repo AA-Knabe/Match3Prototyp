@@ -31,7 +31,9 @@ public class Match3 : MonoBehaviour
     List<KilledPiece> killed;
 
     System.Random random;
-
+    /// <summary>
+    /// Default Unity Methode. Ruft StartGame() auf.
+    /// </summary>
     void Start()
     {
         StartGame();
@@ -110,6 +112,9 @@ public class Match3 : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Initialisiert alle Klassen.
+    /// </summary>
     void StartGame()
     {
         pieces = stages[selectedStage].pieces;
