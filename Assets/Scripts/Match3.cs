@@ -180,6 +180,12 @@ public class Match3 : MonoBehaviour
         update.Add(piece);
     }
 
+    /// <summary>
+    /// Tausche die zwei Objekte an den angebenenen Punkte.
+    /// </summary>
+    /// <param name="one">Erster Punkt</param>
+    /// <param name="two">Zweiter Punkt</param>
+    /// <param name="main">Weiß nicht mehr wofür das ist LUL</param>
     public void FlipPieces(Point one, Point two, bool main)
     {
         if (getValueAtPoint(one) < 0) return;
