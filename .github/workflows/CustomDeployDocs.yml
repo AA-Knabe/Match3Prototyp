@@ -1,4 +1,6 @@
-name: Custom Doxygen GitHub Pages Deploy Action
+#Creates Doxygen Docs and pushes them onto the gh-pages branch
+name: Create Doxygen Docs
+run-name: Create Doxygen Docs
 
 on:
   push:

@@ -71,7 +71,7 @@ public class Point
     }
 
     /// <summary>
-    /// Methode, um einen Punkt zu klonen.
+    /// Methode, um einen Punkt zu klonen. Einfach so.
     /// </summary>
     /// <param name="p">Zuklonender Punkt</param>
     /// <returns>Geklonter Punkt</returns>
