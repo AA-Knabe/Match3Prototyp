@@ -185,7 +185,7 @@ public class Match3 : MonoBehaviour
     /// </summary>
     /// <param name="one">Erster Punkt</param>
     /// <param name="two">Zweiter Punkt</param>
-    /// <param name="main">Weiss nicht mehr wofuer das ist LUL</param>
+    /// <param name="main">Weiss nicht mehr wofuer das ist</param>
     public void FlipPieces(Point one, Point two, bool main)
     {
         if (getValueAtPoint(one) < 0) return;
